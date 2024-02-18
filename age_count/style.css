@@ -1,0 +1,104 @@
+
+*:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(#2b14ff, #53a3e6);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1{
+    color: white;
+    text-align: center;
+    top: 10%;
+    font-size: 350%;
+}
+.image{
+    display: flex ;
+    flex-wrap: wrap;
+}
+img{
+    width: 40%;
+    height: 60%;
+    top: 30%;
+    position: relative;
+}
+h2{
+    color: white;
+    left: 50%;
+    padding: 0% 50% 0% 0%;
+}
+h3{
+    color: white;
+}
+.agecontainer {
+    width: 25%;
+    min-width: 50px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 60%;
+    top: 65%;
+    padding: 20px 20px;
+    border-radius: 10px;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.5);
+}
+.agecontainer *{
+    border: none;
+    outline: none;
+    font-family: "Poppins", sans-serif;
+}
+.dob{
+    color: black;
+}
+input{
+    height: 50px;
+    width: 60%;
+    padding: 0 20px;
+    font-size: 15px;
+    background-color: white;
+    color: black;
+    font-weight: 550;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.5);
+}
+button{
+    height: 50px;
+    width: 30%;
+    float: right;
+    margin-bottom: 20px;
+    background-color: black;
+    color: white;
+    font-weight: 500;
+    border-radius: 8px;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.5);
+}
+.count_box {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.count_box div{
+    height: 80px;
+    width: 80px;
+    background-color: white;
+    border-radius: 6px;
+    display: grid;
+    place-items: center;
+    padding: 8px 0;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.5);
+}
+span{
+    font-size: 30px;
+    font-weight: 500;
+    align-items: center;
+}
+p{
+    color:rgb(51, 59, 59);
+    font-weight: 600;
+}
